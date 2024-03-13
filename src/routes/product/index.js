@@ -2,8 +2,6 @@ const express = require("express");
 
 const certificateController = require("../../controller/productController");
 
-const user_jwt_verify = require("../../middleware/authenticateJwt")
-
 const router = express.Router();
 
 
